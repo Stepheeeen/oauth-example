@@ -15,6 +15,10 @@ export default function Home() {
         <span className="pe-2">Login with github</span>
         <Github />
       </button>
+      <button className="bg-white flex p-2 rounded-md hover:cursor-pointer active:transform-scale-95 text-black max-w-max">
+        <span className="pe-2">Sign in with github</span>
+        <Github />
+      </button>
     </div>
   )
 }
